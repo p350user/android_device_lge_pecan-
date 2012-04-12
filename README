@@ -2,7 +2,23 @@ CYANOGENMOD 6 DEVICE FOLDER FOR LG OPTIMUS ME P350 AKA PECAN
 
 How to use
 
-DOWNLOAD CM6 SOURCE ON YOUR PC/LAPTOP
+You need to have your environment configured exatly like here:
+
+http://source.android.com/source/initializing.html
+
+Next download a repo client (part "Installing Repo" of this link):
+
+http://source.android.com/source/downloading.html
+
+After this steps you have everything configured and can initialize your repository for building CM6 for OPTMUS ME 
+
+DOWNLOAD CM6 SOURCE ON YOUR PC/LAPTOP 
+CODE:
+repo init -u git://github.com/CyanogenMod/android.git -b froyo
+repo sync
+
+NOW IT WILL TAKE LONG TIME AND IF YOU HAVE SLOW NET SPEED THEN WILL TAKE VERY LONG TIME
+WHEN YOU WILL DONE THEN YOU HAVE CM6 SOURCE ON YOUR PC/LAPTOP BUT FOR BUILD YOU NEED DEVICE FOLDER 
 
 AFTER DOWNLOAD CLONE THIS DEVICE FOLDER TO BUILD CM6
 
@@ -26,7 +42,17 @@ now your you have all properiaty drivers
 
 now build your p350 cm6 
 
-enjoy cm6
+CODE:
+. build/envsetup.sh
+
+NOW SLECT ON PECAN
+
+NOW CM6 IS START TO BUILD. YOU NEED WAIT FOR SOME TIME UNTILL YOU WILL NOT GET Package complete MSG 
+
+AFTER GET MSG YOU WILL GET CM6 IN THIS folder out/target/pecan/  
+NOW COPY THIS ZIP ON SDCARD ANF FLASH IT
+
+enjoy cm6 ON P350
 
 note:after clone you need to remove - this from device folder name if you get any problem 
 
