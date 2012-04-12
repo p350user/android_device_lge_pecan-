@@ -1,2 +1,17 @@
 DEVICE FOLDER FOR LG OPTIMUS MEP350 CM6 
 
+HOW TO USE 
+DOWNLOAD CM6 SOURCE ON YOUR PC/LAPTOP
+
+AFTER DOWNLOAD CLONE THIS DEVICE FOLDER TO BUILD CM6
+
+CODE FOR CLONE:
+
+git clone git://github.com/cipsgokhle/android_device_lge_pecan-.git
+
+now build your p350 cm6 
+
+enjoy
+
+note:after clone you need to remove - this from device folder name 
+
