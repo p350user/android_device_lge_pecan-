@@ -12,7 +12,8 @@ cd device/lge
 
 git clone git://github.com/cipsgokhle/android_device_lge_pecan-.git
 
-1st get properiaty drivers from running device. you need stock 2.2 or any custom 2.2 rom install on your device if you are on 2.3 uninstall it and install 2.2
+1st get properiaty drivers from running device. you need stock 2.2 or any custom 2.2 rom install on 
+your device if you are on 2.3 uninstall it and install 2.2 AGAIN
 
 now Connect your device via USB and do the following commands 
 
